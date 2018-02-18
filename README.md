@@ -1,4 +1,4 @@
-# ShovikCom
+# [shovik.com](https://shovik.com)
 
 Alex Kovshovik's website, deployed at https://shovik.com
 
