@@ -1,0 +1,22 @@
+.image-box {
+  background-color: lightgray;
+  padding: 10px;
+
+  .image-preview {
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+  }
+
+  .label-primary {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+    margin: 5px auto auto 10px;
+  }
+
+  button {
+    margin: 5px auto auto 10px;
+  }
+}

@@ -1,0 +1,19 @@
+<%= if @page.page_number > 1, do: pagination_links @page %>
+
+<%= for post <- @page.entries do %>
+  <div class="section group blog-post">
+    <% image_url = post_image(post)
+       background_style = if is_nil(image_url), do: "", else: "background-image: url('#{image_url}')" %>
+    <div class="col span_8_of_12 blog-preview">
+      <h2><%= link post.title, to: blog_path(@conn, :show, post_url(post)) %></h2>
+      <small>Posted on <%= format_posted_at(post.publish_at) %> by <%= post.author.first_name %></small>
+
+      <%= post_preview(post) %>
+    </div>
+    <div class="col span_4_of_12 blog-image" style="<%= background_style %>">
+      &nbsp;
+    </div>
+  </div>
+<% end %>
+
+<%= render "_scripts.html" %>

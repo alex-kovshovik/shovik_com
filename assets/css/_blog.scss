@@ -1,0 +1,34 @@
+.blog-post {
+  margin-bottom: 3em;
+}
+
+.blog-image {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog-preview {
+  h2 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img {
+    width: 382px;
+  }
+}
+
+blockquote {
+  background: #fafafa;
+  border-left: 2px solid #69c;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-style: italic;
+}
+
+blockquote p {
+  display: inline;
+}

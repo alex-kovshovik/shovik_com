@@ -1,0 +1,45 @@
+<footer id="footer">
+  <section class="section group">
+    <div class="col span_5_of_12">
+      <p>
+        Twitter is my social network of choice, send me a DM.
+      </p>
+
+      <p>
+        <ul>
+          <li><i class="fi fi-social-twitter"></i>&nbsp;<a href="https://twitter.com/ashovik" title="Alex Kovshovik's Twitter profile">@ashovik</a></li>
+          <li><i class="fi fi-social-google-plus"></i>&nbsp;<a href="https://plus.google.com/u/0/+AlexKovshovik" title="Alex Kovshovik's Google+ profile">Google+</a></li>
+          <li><i class="fi fi-social-stack-overflow"></i>&nbsp;<a href="http://stackoverflow.com/users/115680/alex-kovshovik" title="Alex Kovshovik's StackOverflow profile">StackOverflow</a></li>
+          <li><i class="fi fi-social-linkedin"></i>&nbsp;<a href="https://www.linkedin.com/in/alex-kovshovik-4532588" title="Alex Kovshovik's LinkedIn profile">LinkedIn</a></li>
+          <li><i class="fi fi-social-github"></i>&nbsp;<a href="https://github.com/alex-kovshovik" title="Alex Kovshovik's GitHub profile">GitHub</a></li>
+        </ul>
+      </p>
+    </div>
+
+    <div class="col span_7_of_12">
+      <p>
+        This site is powered by <a href="http://elixir-lang.org">Elixir</a> and <a href="http://phoenixframework.org">Phoenix Framework</a>
+        mostly because I like to play with things, however <a href="http://elixir-lang.org">Elixir</a> is so nice and fast I will use it
+        for serious projects.
+      </p>
+
+      <p>
+        <strong>Disclaimer:</strong> I'm not a designer and despite this fact I managed to design this contraption myself, using
+        a <a href="http://jgthms.com/web-design-in-4-minutes" title="Web Design in 4 minutes">wonderful tutorial</a>
+        by <a href="http://jgthms.com/" title="Jeremy Thomas">Jeremy Thomas</a>.
+      </p>
+
+      <p>
+        I do have access to the <a href="http://irabanana.com/">team of professional designers</a>
+        in <a href="https://www.google.com/maps/place/Belarus/@53.6331332,23.4939995,6z/data=!3m1!4b1!4m5!3m4!1s0x46da2584e2ad4881:0xa1d181ec8c10!8m2!3d53.709807!4d27.953389">Belarus</a>
+        who can help create beatiful designs for my projects.
+      </p>
+    </div>
+  </section>
+
+  <section class="section group">
+    <div class="col span_12_of_12">
+      Copyright &copy; <%= Timex.today.year %> Alex Kovshovik. Version <%= current_version() %>.
+    </div>
+  </section>
+</footer>

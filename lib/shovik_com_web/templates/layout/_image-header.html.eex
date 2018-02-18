@@ -1,0 +1,9 @@
+<%= render "_navigation.html", conn: @conn %>
+
+<header id="header">
+  <h1>Alex Kovshovik</h1>
+  <p>
+    Productive web professional that<br />
+    does not compromise speed and maintainability.
+  </p>
+</header>

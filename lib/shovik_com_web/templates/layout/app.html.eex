@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= render "_head.html", conn: @conn %>
+
+<body>
+  <%= render "_navigation.html", conn: @conn %>
+
+  <main role="main">
+    <%= render "_alerts.html", conn: @conn %>
+
+    <div>
+      <%= render @view_module, @view_template, assigns %>
+    </div>
+  </main>
+
+  <%= render "_footer.html", conn: @conn %>
+  <%= render "_script.html", conn: @conn %>
+
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+</body>
+</html>

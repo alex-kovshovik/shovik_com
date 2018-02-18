@@ -1,0 +1,22 @@
+#header {
+  background-color: #263d36;
+  background-image: url("/images/header-background-hands-computer.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 1vw 2em 19vw 2em;
+  text-align: left;
+
+  h1 {
+    font-size: 4.5em;
+    font-weight: 300;
+    text-shadow: 2px 3px 16px white;
+  }
+
+  p {
+    color: #566b78;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 6px white;
+  }
+}

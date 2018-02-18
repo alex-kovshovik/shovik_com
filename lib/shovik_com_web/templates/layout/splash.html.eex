@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= render "_head.html", conn: @conn %>
+
+  <body>
+    <%= render "_alerts.html", conn: @conn %>
+    <%= render "_image-header.html", conn: @conn %>
+
+    <main>
+
+      <section>
+        <%= render @view_module, @view_template, assigns %>
+      </section>
+
+      <section class="section group">
+        <div class="col span_6_of_12">
+          <h2>About</h2>
+
+          <p>
+            Hi, I'm Alex Kovshovik.
+          </p>
+
+          <p>
+            Software engineer, architect and manager with <%= years_of_experience() %> years of experience
+            of building great commercial software... and now this website.
+          </p>
+
+          <p>
+            Also a father, a husband and
+            an avid <a href="https://www.youtube.com/channel/UClXi8o_QWm47VH_WZHSoYnQ" title="Link to FitCrossFit YouTube channel">crossfit enthusiast</a>.
+          </p>
+        </div>
+
+        <div class="col span_6_of_12">
+          <h2>Mission</h2>
+
+          <p>
+            My mission is to build the software that is a delight to use and a
+            <a href="https://github.com/alex-kovshovik/the-anchorman" title="Source code of The Achorman: a toilet reservation app">pleasure to work on</a>:
+            <a href="https://github.com/alex-kovshovik/choker" title="Source code of Chuck Norris Jocker (Choker)">fun</a>,
+            <a href="https://github.com/alex-kovshovik/hobo-elm" title="Source code of HOBO app, a Highly Opinionated Budget Organizer">efficient</a>,
+            <a href="https://github.com/alex-kovshovik/shovik_com" title="Source code of this website">scalable, easy to maintain and future proof</a>.
+          </p>
+
+          <p>
+            I care about what I do: my customers and projects I work on always get a healthy dose of love and attention.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <%= render "_footer.html", conn: @conn %>
+    <%= render "_script.html", conn: @conn %>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<div id="alerts" class="section group">
+  <%= if flash = get_flash(@conn, :info) do %>
+    <div class="success col span_12_of_12" role="alert"><%= flash %></div>
+  <% end %>
+
+  <%= if flash = get_flash(@conn, :error) do %>
+    <div class="alert col span_12_of_12" role="alert"><%= flash %></div>
+  <% end %>
+</div>

@@ -1,0 +1,6 @@
+<h1><%= @post.title %></h1>
+<small>Posted on <%= format_posted_at(@post.publish_at) %> by <%= @post.author.first_name %></small>
+
+<%= render_post(@post) %>
+
+<%= render "_scripts.html" %>
