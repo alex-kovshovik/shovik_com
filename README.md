@@ -1,15 +1,22 @@
 # ShovikCom
 
-To start your Phoenix server:
+Alex Kovshovik's website, deployed at https://shovik.com
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+To run it locally:
+
+  - Install dependencies with `mix deps.get`
+  - Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  - Install Node.js dependencies with `cd assets && npm install`
+  - Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+To deploy:
+  - `docker build -t shovik_com:latest .`
+  - `docker run --rm -it shovik_com:latest foreground`
+  - Docker run requires a few environment variables to run: see Alex's Rancher configuration.
+
+Built using Elixir and Phoenix Framework.
 
 ## Learn more
 
