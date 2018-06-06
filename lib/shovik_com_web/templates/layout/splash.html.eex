@@ -17,12 +17,24 @@
           <h2>About</h2>
 
           <p>
-            Hi, I'm Alex Kovshovik.
+            Hi, my name is Alex Kovshovik.
           </p>
 
           <p>
-            Software engineer, architect and manager with <%= years_of_experience() %> years of experience
-            of building great commercial software... and now this website.
+            I am a software engineer, architect, and project manager
+            with over <%= years_of_experience() %> years of experience
+            building commercial software systems.
+          </p>
+
+          <p>
+            This website is a showcase of my particular skills and experience
+            is the world of engineering. My blog has many articles detailing out
+            my projects.
+          </p>
+
+          <p>
+            In addition to my professional experience, I am also a father
+            and husband and an avid crossfit enthusiast.
           </p>
 
           <p>
@@ -43,7 +55,9 @@
           </p>
 
           <p>
-            I care about what I do: my customers and projects I work on always get a healthy dose of love and attention.
+            I care about what I do and I love the work I create.
+            My customers and the projects I work on reflect my passion
+            and always receive a healthy dose of respect and attention.
           </p>
         </div>
       </section>
